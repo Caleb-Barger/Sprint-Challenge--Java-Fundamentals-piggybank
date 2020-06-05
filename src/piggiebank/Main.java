@@ -1,14 +1,13 @@
 package piggiebank;
 
-import java.util.*;
-
 public class Main {
 
-    public static List<AbstractMoney> piggyBank = new ArrayList<>();
+    public static PiggyBank firstPiggyBank = new PiggyBank(); 
 
     public static void main(String[] args) {
-        System.out.println("Programm is compilllliunng!??");
-        piggyBank.add(new Quarter());
-        System.out.println(piggyBank.get(0));
+        System.out.println("\n\n*** Money Groups in PiggyBank ***\n");
+        firstPiggyBank.whatsInTheBank();
+        System.out.println("\n\n*** Value of money in PiggyBank ***\n");
+        firstPiggyBank.getTotalValue();
     }
 }

@@ -3,14 +3,9 @@ package piggiebank;
 public class Quarter extends AbstractMoney{
     
     public Quarter(double amt) {
-        super(amt);
-        faceValue = 0.25;
-        name = "Quarter";
+        super(amt, 0.25, "Quarter");
     }
-
     public Quarter() {
-        super(1);
-        faceValue = 0.25;
-        name = "Quarter";
+        super(1, 0.25, "Quarter");
     }
 }
