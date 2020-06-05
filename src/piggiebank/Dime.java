@@ -2,7 +2,7 @@ package piggiebank;
 
 public class Dime extends AbstractMoney{
     
-    public Dime(double amt) {
+    public Dime(int amt) {
         super(amt, 0.10, "Dime");
     }
     public Dime() {

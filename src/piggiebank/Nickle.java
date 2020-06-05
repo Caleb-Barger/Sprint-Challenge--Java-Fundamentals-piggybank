@@ -2,7 +2,7 @@ package piggiebank;
 
 public class Nickle extends AbstractMoney{
     
-    public Nickle(double amt) {
+    public Nickle(int amt) {
         super(amt, 0.05, "Nickle");
     }
     public Nickle() {
