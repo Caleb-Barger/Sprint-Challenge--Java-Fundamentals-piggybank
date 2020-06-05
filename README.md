@@ -25,26 +25,40 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Describe why Java is called an object oriented, strongly typed language.
+  in java we work with objects by declaring new ones and calling methods that
+  changes the data contained within those objects, java is strongly typed because
+  we declare variable types before we assign them.
+
 2. Give examples of Java Collections explaining the use and differences between them.
+One collection could be an ArrayList and the other a HashMap arrayLists are index based
+while you can access parts of a HashMap by a key
+
 3. What is recursion and how does it differ from regular looping?
+recursion happens whenever a function or method calls itself, the diffrence is 
+recurrsion calls itself while a loop depends on a condition in recurssion the condition
+is part of the paramater that is checked within the function being called. (itself)..
+
+
 4. Explain the differences between Abstract Classes and Interfaces including scenarios of when to use them.
+Abstract classes allow programmers to declare that child classes are all able to do the same thing but it does not care how it is implemented as long as it returns the same type. Abstract classes can also define methods and get to have a constructor because they are still classes. Interfaces do not implement things, it is just the INTERFACE they abstract the implementation of
+a method, all we know is that these methods should exist on any class that implements the interface!!
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Create the proper directory structure for developing a Java Application
-- [ ] Push commits: `git push origin <firstName-lastName>`
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create the proper directory structure for developing a Java Application
+- [x] Push commits: `git push origin <firstName-lastName>`
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
-- [ ] Create a collection (Array, ArrayList, or HashMap) to represent the piggy bank. The elements in the collection are pockets of money.
+- [x] Create a collection (Array, ArrayList, or HashMap) to represent the piggy bank. The elements in the collection are pockets of money.
   - Each element in the collection contains
     - The number of coins in this group
     - The face value of the coins in the group
@@ -59,15 +73,15 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 The main program will look something like this pseudocode (remember pseudocode is not meant to be syntactically correct but explain the algorithm):
 
-- [ ] Create collection
-- [ ] piggyBank.add(new Quarter())
-- [ ] piggyBank.add(new Dime())
-- [ ] piggyBank.add(new Dollar(5))
-- [ ] piggyBank.add(new Nickel(3))
-- [ ] piggyBank.add(new Dime(7))
-- [ ] piggyBank.add(new Dollar())
-- [ ] piggyBank.add(new Penny(10))
-- [ ] Print the contents of the Piggy Bank
+- [x] Create collection
+- [x] piggyBank.add(new Quarter())
+- [x] piggyBank.add(new Dime())
+- [x] piggyBank.add(new Dollar(5))
+- [x] piggyBank.add(new Nickel(3))
+- [x] piggyBank.add(new Dime(7))
+- [x] piggyBank.add(new Dollar())
+- [x] piggyBank.add(new Penny(10))
+- [x] Print the contents of the Piggy Bank
   - on the console should appear  
     `1 Quarter`  
     `1 Dime`  
@@ -76,7 +90,7 @@ The main program will look something like this pseudocode (remember pseudocode i
     `7 Dimes`  
     `$1`  
     `10 Pennies`  
-- [ ] Print the value of the Piggy Bank
+- [x] Print the value of the Piggy Bank
   - on the console should appear  
     `The piggy bank holds $7.30`  
 
@@ -84,11 +98,11 @@ Note: that when you have more than 1 coin, the plural of the coin's name is prin
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [x] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x] Consistent quotation usage.
+- [x] Spell-check.
+- [x] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
